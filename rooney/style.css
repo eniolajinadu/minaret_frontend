@@ -1,0 +1,18 @@
+body{
+    font-size: large;
+    color: gold;
+}
+
+section{
+    border-radius: 200px;
+    border-color: aqua;
+    fill: black;
+    color: rgb(86, 165, 40);
+}
+table{
+    color: aqua;
+    
+}
+footer{
+    text-orientation: italic;
+}
