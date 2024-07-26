@@ -1,0 +1,80 @@
+body{
+    font-size: large;
+    color: gold;
+    margin: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: black;
+
+}
+h1{
+    text-align: left;
+}
+h2{
+    font-style: italic;
+    color: cornflowerblue;
+
+}
+
+table{
+    display: flex;
+    background-color: darkslategrey;
+    color: darkorange;
+}
+
+th{
+    font-style: italic;
+}
+section{
+    border-radius: 20px;
+    border-color: aqua;
+    color: rgb(86, 165, 40);
+     background-color: rgb(230, 41, 41);
+    text-align: center;
+}
+
+blockquote{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: Impact;
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+
+table{
+    color: aqua;
+    display: block;
+    font-family: 'Lucida Sans';
+}
+
+footer{
+    text-align: center;
+}
+
+button{
+    color: yellow;
+    font-family: "Arial";
+    background-color: black;
+}
+
+button:hover{
+    font-style: italic;
+    border-radius: 2rem;
+    size: 40px;
+}
+
+p{
+    font-style: italic;
+}
+
+fieldset{
+    display: block;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+}
