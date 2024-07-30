@@ -46,7 +46,7 @@ nav{
     display: flex;
     place-items: initial;
     flex-wrap: nowrap;
-    gap: 16px;
+    gap: 32px;
     justify-content: space-around;
     align-items: center;
     height: 75px;
@@ -110,9 +110,33 @@ p{
     font-style: italic;
 }
 
-fieldset{
-    display: flex;
-    width: 20%;
+div.fieldset#login{
+    display: inline;
     height: 75px;
+    width: 75px;
     align-items: center;
+    float: left;
+    justify-self: center;
+    align-self: center;
+}
+fieldset#login{
+    display: grid;
+    height: 75px;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 1px;
+    border-style: none;
+    border-image: initial;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+label.Username{
+    justify-content: center;
 }
