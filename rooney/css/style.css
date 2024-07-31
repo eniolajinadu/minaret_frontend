@@ -100,10 +100,13 @@ button{
     background-color: black;
 }
 
+div.link:hover{
+    transform: scale(115%);
+}
 button:hover{
     font-style: italic;
     border-radius: 2rem;
-    size: 40px;
+    size: 40px;;
 }
 
 p{
