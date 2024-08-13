@@ -1,0 +1,34 @@
+pre.ro{
+    text-decoration: double;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a.places1{
+    color: rgb(238, 238, 35);
+    background-color: blueviolet;
+}
+
+a.places1:active{
+    color: yellow;
+    text-decoration: double;
+}
+
+button.places1{
+    color: blue;
+    background-color: black;
+}
+
+img.musk{
+    height: 250px;
+    width: 300px;
+    float: right;
+
+}
+
+p.today{
+    background-image: url(rooney/images/img2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
